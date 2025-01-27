@@ -36,7 +36,7 @@
     <ClCompile Include="Utility\InputManager.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="Scenes\SceneFactroy.cpp">
+    <ClCompile Include="Scenes\SceneFactory.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="Scenes\TitleScene\TitleScene.cpp">
@@ -48,19 +48,10 @@
     <ClCompile Include="Scenes\InGameScene\InGameScene.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="Scenes\InGameScene\UnderGroundScene\UnderGroundScene.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Scenes\InGameScene\OverGroundScene\OverGroundScene.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
     <ClCompile Include="Objects\GameObject.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="Objects\Collision.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Objects\Character\Character.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="Objects\Character\Player\Player.cpp">
@@ -87,16 +78,10 @@
     <ClCompile Include="Objects\Character\Enemy\Nokonoko\Nokonoko.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="Objects\Brock\BlockBase.cpp">
+    <ClCompile Include="Objects\Terrain\Ground\Ground.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="Objects\Brock\Ground\Ground.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Objects\Brock\Brick\Brick.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Objects\Brock\Hatena\Hatena.cpp">
+    <ClCompile Include="Objects\Terrain\Block\Block.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="Objects\Item\ItemBase.cpp">
@@ -123,6 +108,12 @@
     <ClCompile Include="Objects\Item\Star\Star.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="Utility\Vector2D.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Terrain\BackGround\BackGround.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utility\Singleton.h">
@@ -146,7 +137,7 @@
     <ClInclude Include="Scenes\SceneBase.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="Scenes\SceneFactroy.h">
+    <ClInclude Include="Scenes\SceneFactory.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
     <ClInclude Include="Scenes\TitleScene\TitleScene.h">
@@ -156,12 +147,6 @@
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
     <ClInclude Include="Scenes\InGameScene\InGameScene.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Scenes\InGameScene\UnderGroundScene\UnderGroundScene.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Scenes\InGameScene\OverGroundScene\OverGroundScene.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
     <ClInclude Include="Objects\GameObject.h">
@@ -200,16 +185,13 @@
     <ClInclude Include="Objects\Character\Enemy\Nokonoko\Nokonoko.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="Objects\Brock\BlockBase.h">
+    <ClInclude Include="Objects\Terrain\Terrain.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="Objects\Brock\Ground\Ground.h">
+    <ClInclude Include="Objects\Terrain\Ground\Ground.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="Objects\Brock\Brick\Brick.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Objects\Brock\Hatena\Hatena.h">
+    <ClInclude Include="Objects\Terrain\Block\Block.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
     <ClInclude Include="Objects\Item\ItemBase.h">
@@ -234,6 +216,12 @@
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
     <ClInclude Include="Objects\Item\Star\Star.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Vector2D.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Terrain\BackGround\BackGround.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>
